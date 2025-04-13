@@ -12,7 +12,7 @@ export default function Index() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background to-muted p-4">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background to-black p-4">
       <ContactCard contact={contactInfo} />
     </div>
   );
