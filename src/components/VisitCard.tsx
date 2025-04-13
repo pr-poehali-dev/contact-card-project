@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Globe, GitHub, Linkedin } from "lucide-react";
+import { Mail, Phone, MapPin, Globe, Github, Linkedin } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Separator } from "@/components/ui/separator";
@@ -66,7 +66,7 @@ export default function VisitCard() {
         <div className="flex justify-center gap-4 pt-2">
           <Button variant="outline" size="icon" className="rounded-full" asChild>
             <a href={`https://${contact.github}`} target="_blank" rel="noopener noreferrer">
-              <GitHub className="h-5 w-5" />
+              <Github className="h-5 w-5" />
             </a>
           </Button>
           <Button variant="outline" size="icon" className="rounded-full" asChild>
